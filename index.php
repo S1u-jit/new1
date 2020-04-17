@@ -3,7 +3,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <style>
     .col-md-3{
       display: flex;
@@ -72,7 +72,7 @@ box-shadow: 0 8px 6px -6px black;
 
     .parallax {
       /* The image used */
-      background-image: url("image/slide1.jpg");
+      background-image: url("slide1.jpg");
 
       /* Set a specific height */
       min-height: 500px; 
@@ -203,13 +203,13 @@ box-shadow: 0 8px 6px -6px black;*/
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="height: 360px; "  style="position: absolute; z-index: 1;"> 
     <div class="carousel-inner" style="height: 360px;">
       <div class="carousel-item active">
-        <img class="d-block w-100 img-fluid height: auto; " src="image/slide1.jpg " alt="First slide" style="height: 100%; filter: blur(2px);">
+        <img class="d-block w-100 img-fluid height: auto; " src="slide1.jpg " alt="First slide" style="height: 100%; filter: blur(2px);">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 img-fluid  height: auto;" src="image/slide2.jpg" alt="Second slide" style="height: 100%; filter: blur(2px);">
+        <img class="d-block w-100 img-fluid  height: auto;" src="slide2.jpg" alt="Second slide" style="height: 100%; filter: blur(2px);">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 img-fluid  height: auto;" src="image/slide3.jpg" alt="Third slide" style="height: 100%; filter: blur(2px);">
+        <img class="d-block w-100 img-fluid  height: auto;" src="slide3.jpg" alt="Third slide" style="height: 100%; filter: blur(2px);">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -251,7 +251,7 @@ include 'prevention.php';
 
  <!-- <div style="height: 50vh; background-color:blue; margin-top: 0; top:80;
    margin-top:200px;"></div> -->
-   <div class="container top"  style="background-image: url(image/corona1.jpg);-webkit-box-shadow: -4px 16px 7px 0px rgba(88,89,83,1);
+   <div class="container top"  style="background-image: url(corona1.jpg);-webkit-box-shadow: -4px 16px 7px 0px rgba(88,89,83,1);
 -moz-box-shadow: -4px 16px 7px 0px rgba(88,89,83,1);
 box-shadow: -4px 16px 7px 0px rgba(88,89,83,1);">     
     <div class="row  radi" >
